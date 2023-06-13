@@ -10,9 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
   }
 }
 
@@ -24,4 +22,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  main {
+    font-family: 'Consolas';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
 }
