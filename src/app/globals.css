@@ -32,4 +32,8 @@ body {
     line-height: 19px;
     font-weight: 400;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
 }
